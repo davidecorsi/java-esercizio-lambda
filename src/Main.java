@@ -11,10 +11,5 @@ import java.util.List;
 public class Main {
 	public static void main(String[] args) {
 		List<Integer> integerList = new ArrayList<>(Arrays.asList(2, 5, 8, 10, 20, 15, 35, 15, 8, 12, 3));
-		// versione con le lambda
-		integerList.removeIf(n -> n % 2 == 1);
-		integerList.replaceAll(n -> n * 2);
-		integerList.forEach(System.out::println);
-		List<Integer> integerList1 = new ArrayList<>(Arrays.asList(2, 5, 8, 10, 20, 15, 35, 15, 8, 12, 3));
 	}
 }
